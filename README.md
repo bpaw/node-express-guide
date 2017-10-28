@@ -4,13 +4,15 @@
 
 We need 8.7 because it's the only version that is compatible with Heroku CLI, which we will be using to host our API.
 
+## Steps
+
 After cloning this repo, you should have all the files necessary to start a Node project.
 
 1. run 'npm install' to download the necessary dependencies.
 
 2. run 'npm start' to run the server code. You can see verify that it's working if you go to http://localhost:3000/
 
-3. open server.js and add an app.get('/[route_name]', ... ) call. You can name it whatever you want.
+3. open server.js and add an app.get('/[route_name]', ... ) call. You can name it whatever you want and there should already be an example for you to get the general idea. 
 
 4. use the curl command to verify your route works. 
 * make sure that you ran npm start
