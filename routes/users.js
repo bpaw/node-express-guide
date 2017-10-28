@@ -6,6 +6,7 @@ router.get('/', function(req, res, next) {
   res.send('respond with a resource');
 });
 
+// EXAMPLE: this is what a GET request looks like in router file
 router.get('/other_me', function(req, res) {
 	var other_me = {
 		"name" : "other brandon"

@@ -25,6 +25,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', index);
 app.use('/users', users);
 
+// EXAMPLE: this is what a GET request looks like 
 app.get('/me', function(req, res) {
 	var me = {
 		'name': "brandon"
